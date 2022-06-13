@@ -1,23 +1,25 @@
+package model;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.math.BigDecimal;
 import java.util.Objects;
 
 @Entity
-public class Pedido {
+public class Produto {
 
     @Id
 
-    private Long id;
+    private Integer id;
     private String nome;
     private String descricao;
     private BigDecimal preco;
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -49,8 +51,8 @@ public class Pedido {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Pedido pedido = (Pedido) o;
-        return id.equals(pedido.id);
+        Produto produto = (Produto) o;
+        return id.equals(produto.id);
     }
 
     @Override
