@@ -232,7 +232,7 @@ Seja bem-vindo ao curso **Especialista JPA**! Neste curso, você aprenderá desd
 
 ---
 
-## 🚀 Sobre o Curso
+## Sobre o Curso
 Este é um curso completo, do básico ao avançado, para quem deseja dominar **JPA**, **Hibernate**, **Consultas Avançadas**, **Criteria API**, **Cache**, **Multitenancy** e muito mais, aplicando tudo em projetos web profissionais.
 
 ---
